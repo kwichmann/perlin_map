@@ -1,7 +1,8 @@
 const granularity = 5;
-let seed = 42;
+let e_seed = 42;
+let v_seed = 113;
 const noiseMesh = 1 / 100;
-let mapmatrix;
+let elevation, vegetation;
 
 function setup() {
   createCanvas(600, 400);
@@ -13,24 +14,36 @@ function draw() {
 }
 
 function make_map() {
-  noiseSeed(seed);
-  mapmatrix = [];
+  noiseSeed(e_seed);
+  elevation = [];
 
   for (let y = 0; y < height; y += granularity) {
     let row = [];
     for (let x = 0; x < width; x += granularity) {
       row.push(noise(x * noiseMesh, y * noiseMesh));
     }
-    mapmatrix.push(row);
+    elevation.push(row);
+  }
+
+  noiseSeed(v_seed);
+  vegetation = [];
+
+  for (let y = 0; y < height; y += granularity) {
+    let row = [];
+    for (let x = 0; x < width; x += granularity) {
+      row.push(noise(x * noiseMesh, y * noiseMesh));
+    }
+    vegetation.push(row);
   }
 }
 
 function draw_map() {
   noStroke();
 
-  for (let i = 0; i < mapmatrix.length; i++) {
-    for (let j = 0; j < mapmatrix[i].length; j++) {
-      let terrain = mapmatrix[i][j];
+  for (let i = 0; i < elevation.length; i++) {
+    for (let j = 0; j < elevation[i].length; j++) {
+      let terrain = elevation[i][j];
+      let flora = vegetation[i][j]
 
       let c = map(terrain, 0, 0.3, 0, 100);
       fill(c, c, 255);
@@ -40,6 +53,9 @@ function draw_map() {
       }
       if (terrain > 0.33) {
         fill(0, 255, 0);
+        if (flora * terrain > 0.25) {
+          fill(0, 180, 0);
+        }
       }
       if (terrain > 0.65) {
         c = map(terrain, 0.65, 1, 180, 255);
