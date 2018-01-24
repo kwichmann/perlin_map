@@ -1,0 +1,104 @@
+Ideas for Warlords clone (Lords of War?)
+
+Forces
+------
+Light Infantry (Scouts?)
+Heavy Infantry
+Cavalry
+Artillery
+Flying Forces
+Specials
+Heroes?
+
+Factions
+--------
+Paladins
+Dwarves
+Elves
+Halflings
+Orcs
+"Horse lords"
+Necromancer
+Pirates/Seafarers(?)
+
+Forces for each Faction
+=======================
+Paladins
+--------
+Light Infantry:
+Heavy Infantry: Holy Knights
+Cavalry: Paladins
+Artillery: Righteous Arrows
+Flying Forces: Pegasus riders
+Specials: Angels
+Heroes: Warpriest
+
+Dwarves
+-------
+Light Infantry:
+Heavy Infantry:
+Cavalry:
+Artillery: Crossbow Crew
+Flying Forces: Griffons
+Specials:
+Heroes:
+
+Elves
+-----
+Light Infantry:
+Heavy Infantry:
+Cavalry: Rangers
+Artillery: Elven Archers
+Flying Forces: Eagles
+Specials:
+Heroes:
+
+Halflings
+---------
+Light Infantry: Halfling scouts
+Heavy Infantry: Halfling warriors
+Cavalry: Mastiff outriders
+Artillery: Halfling slingers
+Flying Forces: Giant sparrow riders
+Specials:
+Heroes:
+
+Orcs
+----
+Light Infantry:
+Heavy Infantry:
+Cavalry: Boar riders
+Artillery:
+Flying Forces: Wyvern Riders
+Specials:
+Heroes:
+
+"Horse lords"
+-------------
+Light Infantry: Spearmen
+Heavy Infantry:
+Cavalry: Cavalry
+Artillery:
+Flying Forces: Hippogriffs
+Specials:
+Heroes:
+
+Necromancer
+-----------
+Light Infantry: Skeletons
+Heavy Infantry: Zombies
+Cavalry: Hell Knights
+Artillery: Wight Archers
+Flying Forces: Dracolich
+Specials: Ghosts
+Heroes: Vampires
+
+Pirates
+-------
+Light Infantry:
+Heavy Infantry:
+Cavalry:
+Artillery:
+Flying Forces:
+Specials:
+Heroes:

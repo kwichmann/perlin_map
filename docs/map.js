@@ -1,12 +1,12 @@
 const granularity = 1;
 let e_seed = 42;
 let v_seed = 113;
-const noiseMesh = 1 / 100;
+const noiseMesh = 1 / 20;
 
 let col_map;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(200, 400);
   col_map = make_map(e_seed, v_seed, 0.25, 0.3, 0.33, 0.65, 0.25, 0.75);
 }
 
